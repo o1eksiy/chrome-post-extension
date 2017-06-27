@@ -1,0 +1,17 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "Login form",
+  "version": "0.0.1",
+  "browser_action": {
+  	"default_popup": "popup.html"
+  },
+  "permissions": [
+//    "*://*/*",
+    "https://jsonplaceholder.typicode.com/posts"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["script.js"]
+  }
+}
